@@ -1,0 +1,4 @@
+v 1.0.1
+- change name to Looun Add-on repository
+v 1.0.0
+- initial version

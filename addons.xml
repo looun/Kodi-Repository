@@ -22,16 +22,16 @@
       <source>https://github.com/looun/Kodi-Repository</source>
     </extension>
   </addon>
-  <addon id="repository.looun.ropo" name="Looun add-on" version="1.0.0" provider-name="looun">
-    <extension point="xbmc.addon.repository" name="Looun add-on">
-      <info compressed="false">https://raw.githubusercontent.com/looun/Kodi-Repository/master/addons.xml</info>
+  <addon id="repository.looun.ropo" name="Looun Add-on repository" version="1.0.1" provider-name="looun">
+	<extension point="xbmc.addon.repository" name="Looun Add-on repository">
+	  <info compressed="false">https://raw.githubusercontent.com/looun/Kodi-Repository/master/addons.xml</info>
       <checksum>https://raw.githubusercontent.com/looun/Kodi-Repository/master/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.githubusercontent.com/looun/Kodi-Repository/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-      <summary>Install add-on from https://github.com/looun/Kodi-Repository</summary>
-      <description>Download and install addons for Kodi.</description>
-      <platform>all</platform>
+        <summary>Install add-on from https://github.com/looun/Kodi-Repository</summary>
+        <description>Download and install Looun Add-on for Kodi.</description>
+        <platform>all</platform>
     </extension>
   </addon>
 </addons> 
