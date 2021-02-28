@@ -22,6 +22,32 @@
       <source>https://github.com/looun/Kodi-Addon-Hi-Frequency-Switcher</source>
     </extension>
   </addon>
+  <addon id="script.frequency.switcher" name="Hi Frequency Switcher Kodi 19.x" version="3.7.0+matrix.1" provider-name="">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="script.module.pyxbmct" version="1.3.1"/>
+    </requires>
+    <extension point="xbmc.python.script" library="fswitch.py">
+      <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="fswitch_service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Frequency Switcher for HiSTBAndroidV6/HiSTBAndroidV5</summary>
+      <description lang="en">Supports 2160p,1080p and 720p resolutions.[CR]1) ENABLE Playbacks Stars[CR]2) ENABLE Default 60hz or 50hz[CR]3) Active info key fro display fps and hz video[CR]Settings does not update to show HDMI mode changes made using this add-on.[CR][CR]Please run Clean Up before you Uninstall or Disable.[CR]Thanks to pcristi [CR]Credits: jk-nz, MINIX-Ken, HardwareGuru, KenV99, Roman_V_M, takoi and Abbe</description>
+      <disclaimer lang="en"></disclaimer>
+      <language></language>
+      <platform></platform>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+      <forum>http://www.android-mediaplayer.de/index.php/Thread/3483-Kodi-ADDON-Frequency-Switcher-Autoframerate-detection/</forum>
+      <website></website>
+      <email></email>
+      <source>https://github.com/looun/Kodi-Addon-Hi-Frequency-Switcher</source>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+    </extension>
+  </addon>
   <addon id="repository.looun.ropo" name="Looun Add-on repository" version="1.0.1" provider-name="looun">
     <extension point="xbmc.addon.repository" name="Looun Add-on repository">
       <info compressed="false">https://raw.githubusercontent.com/looun/Kodi-Repository/master/addons.xml</info>
